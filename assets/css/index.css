@@ -56,6 +56,9 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.blog-card{
+  width: 100%
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -4526,7 +4529,8 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #F85C70;
+  background-color: #641dd6; 
+  /* #F85C70; */
 }
 
 .nav-fill .nav-item {
@@ -5414,8 +5418,9 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #F85C70;
+  background-color: #591ec8;
   border-color: #F85C70;
+  /* #F85C70 */
 }
 
 .page-item.disabled .page-link {
